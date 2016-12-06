@@ -1,0 +1,78 @@
+/*---------------------------------
+2.2 Footer
+----------------------------------*/
+footer.page-wrap > div { margin-left: 170px; }
+#footer-content {
+	background: #34373b;
+	color: #8e9798;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding: 50px;
+}
+#footer-content > div {
+	float: left;
+	width: 50%;
+}
+#footer-content p { 
+	margin: 0 20px 12px 0;
+}
+#footer-content p i {
+	color: #c3c8c9;
+	font-size: 14px;
+	padding: 0 8px 0 0;
+	position: relative;
+	top: 3px;
+}
+#footer-content .footer-phone,
+#footer-content .footer-email { float: left; }
+#footer-content dl dt,
+#footer-content dl dd {
+	display: block;
+	float: left;
+	margin-bottom: 12px;
+	padding: 0;
+}
+#footer-content dl dd { 
+	margin: 0 20px 12px 4px; 
+}
+#footer-content dl dt:nth-child(5n) { clear: both; }
+#footer-content h3 {
+	color: #fff;
+	font-size: 12px;
+	margin: 0 0 16px 0;
+	text-transform: uppercase;
+}
+#footer-content:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+#social-icons {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+#social-icons a {
+	color: #363636;
+	display: inline-block;
+	height: 24px;
+	margin: 0 4px;
+	overflow: hidden;
+	width: 20px;
+}
+#social-icons a:active,
+#social-icons a:focus,
+#social-icons a:hover { color: #da6426; }
+#copyrights {
+	color: #555;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0 0 30px 0;
+	text-align: center;
+}
+#copyrights a { color: #DA6426; }
+#copyrights a:active,
+#copyrights a:focus,
+#copyrights a:hover { color: #fff; }

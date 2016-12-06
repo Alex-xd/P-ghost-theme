@@ -1,0 +1,28 @@
+/*---------------------------------
+2.1 Logo
+----------------------------------*/
+#logo {
+	margin: 82px auto 88px;
+	position: relative;
+	text-align: center;
+}
+#logo a { color: #ffffff; }
+#logo small {
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	text-transform: uppercase;
+	top: 30px;
+}
+#logo:before {
+	color: #ffffff;
+	content: "* * *";
+	display: block;
+	font-family: ghost-perfetta;
+	font-size: 10px;
+	position: absolute;
+	top: -40px;
+	width: 100%;
+}

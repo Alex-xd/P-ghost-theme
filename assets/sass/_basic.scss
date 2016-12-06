@@ -1,0 +1,124 @@
+/*---------------------------------
+1. Basic elements
+----------------------------------*/
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+body {
+	background-attachment: fixed;
+	background-color: #f3f3f3;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #777;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+body.default-bg { background-image: url('../images/bg-desktop.jpg'); }
+a {
+	color: #da6426;
+	text-decoration: none;
+}
+.loaded a {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+a:active,
+a:focus,
+a:hover { color: #363636; }
+img { max-width: 100%; }
+.page-wrap {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { color: #363636 }
+hr:after {
+	color: #bbb;
+	content: "* * *";
+	display: block;
+	font-family: ghost-perfetta;
+	font-size: 13px;
+	position: absolute;
+	text-align: center;
+	top: 20px;
+	width: 100%;
+}
+blockquote:before {
+	color: #DA6426;
+	content: "\a";
+	font-family: serif;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: 300;
+	height: 10px;
+	left: -40px;
+	position: absolute;
+	top: -25px;
+	width: 20px;
+}
+iframe {
+	border: none;
+}
+/*---------------------------------
+1.1 Fonts
+----------------------------------*/
+@font-face {
+	font-family: "ghost-perfetta";
+	src: url("../fonts/perfetta-pixellove/ghost-perfetta.eot");
+	src: url("../fonts/perfetta-pixellove/ghost-perfetta.eot?#iefix") format("embedded-opentype"), url("../fonts/perfetta-pixellove/ghost-perfetta.ttf") format("truetype"), url("../fonts/perfetta-pixellove/ghost-perfetta.svg#ghost-perfetta") format("svg"), url("../fonts/perfetta-pixellove/ghost-perfetta.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+[data-icon]:before {
+	font-family: "ghost-perfetta" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	font-family: "ghost-perfetta" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-email:before { content: "a"; }
+.icon-fb:before { content: "b"; }
+.icon-gplus:before { content: "c"; }
+.icon-phone:before { content: "d"; }
+.icon-pinterest:before { content: "e"; }
+.icon-rss:before { content: "f"; }
+.icon-star:before { content: "*"; }
+.icon-twitter:before { content: "g"; }
+.icon-youtube:before { content: "h"; }
+/*---------------------------------
+1.2 Animation end states
+----------------------------------*/
+body.loaded .blog-desc {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}

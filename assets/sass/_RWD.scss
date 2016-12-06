@@ -1,0 +1,230 @@
+/*---------------------------------
+5. RWD
+----------------------------------*/
+
+@media (max-width: 1140px) {
+	body {
+		padding: 0 10px;
+	}
+	body.default-bg {
+		background-image: url('../images/bg-tablet.jpg');
+	}
+}
+
+@media (max-width: 900px) {
+	html {
+		font-size: 55%;
+	}
+	.post-header h2 a {
+		padding: 45px 40px 20px 40px;
+	}
+	.post-content,
+	.post-excerpt,
+	.post-footer,
+	.post-comments {
+		padding: 0 40px 65px 40px;
+	}
+	#footer-content {
+		padding: 40px;
+	}
+	#footer-content dl dt {
+		clear: both;
+	}
+	#footer-content .footer-phone, 
+	#footer-content .footer-email {
+		clear: both;
+	}
+	.share {
+		margin: 0 auto 60px;
+	}
+	.pagination {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 700px) {
+	.post {
+		padding-top: 75px;
+	}
+	.post > div {
+		margin: 0 0 60px 0;
+	}
+	footer.page-wrap > div {
+		margin-left: 0;
+	}
+	.post > aside {
+		padding: 0;
+		width: 100%;
+	}
+	.post > aside > time {
+		float: left;
+		width: 25%;
+	}
+	.post > aside dl {
+		float: right;
+		padding: 10px 0;
+		width: 70%;
+	}
+	.post > aside dt,
+	.post > aside dd {
+		border: none;
+		display: block;
+		float: left;
+		line-height: 30px!important;
+		margin: 0 10px 0 0!important;
+		padding: 0;
+	}
+	.post > aside dd ul {
+		padding: 0!important;
+	}
+	.post > aside dd ul li {
+		line-height: 30px;
+	}
+	.post > aside .item-tags {
+		border: none;
+		clear: both;
+		font-size: 12px;
+		font-style: italic;
+		line-height: 30px!important;
+		text-indent: 0;
+		width: auto;
+	}
+	.post > aside:after {
+		display: none;
+	}
+	.menu {
+		color: #fff;
+		padding: 0 0 30px 0;
+		position: relative;
+	}
+
+	.menu:before {
+		color: #fff;
+		content: "≡ Menu";
+		cursor: pointer;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+	}
+
+	.menu__wrap {
+		background: #fff;
+		border-radius: 2px;
+		left: -9999px;
+		position: absolute;
+		width: 300px;
+	}
+
+	.menu__item {
+		border-top: 1px solid #e5e5e5;
+		border-bottom: none!important;
+		color: #da6426;
+		margin: 0;
+		padding: 5px 0;
+		width: 100%;
+	}
+
+	.menu__item--active {
+		background: #da6426;
+		border-color: #da6426;
+		color: #fff;
+	}
+
+	.menu__item:active,
+	.menu__item:focus,
+	.menu__item:hover {
+		color: #fff!important;
+		background: #da6426!important;
+	}
+
+	.menu__item--active + .menu__item {
+		border-top: none;
+	}
+
+	.menu--open .menu__wrap {
+		float: none;
+		margin: 20px auto;
+		position: static;
+	}
+}
+
+@media (max-width: 480px) { 
+	body.default-bg {
+		background-image: url('../images/bg-mobile.jpg');
+	}
+	.blog-title {
+		font-size: 42px;
+		line-height: 88px;
+		padding: 0 28px;
+	}
+	.blog-title:after {
+		height: 88px;
+	}
+	.blog-title:before {
+		height: 88px;
+	}
+	#logo {
+		margin: 52px auto 58px;
+	}
+	#logo:before {
+		top: -30px;
+	}
+	#logo small {
+		top: 20px;
+	}
+	.post {
+		padding-top: 60px;
+	}
+	.post > aside > time {
+		padding: 15px;
+		width: 45%;
+	}
+	.post > aside > dl {
+		padding: 16px 0;
+		width: 50%;
+	}
+	.post > aside .item-tags,
+	.post > aside .item-tags + dd {
+		display: none;
+	}
+	.post-header h2 a {
+		padding: 25px 20px 20px 20px;
+	}
+	.post-content, 
+	.post-excerpt, 
+	.post-footer, 
+	.post-comments {
+		padding: 0 20px 65px 20px;
+	}
+	.post-header h2 {
+		font-size: 24px;
+	}
+	.post .post-readmore {
+		margin: 20px 0 0 0;
+	}
+	#footer-content > div {
+		padding-top: 20px;
+		width: 100%;
+	}
+	#footer-content > div:first-child {
+		padding-top: 0;
+	}
+	.pagination > div > a, .pagination > div > span {
+		font-size: 11px;
+		padding: 12px 8px;
+	}
+	.author .post-author-avatar {
+		margin: 24px 20px 10px 0;
+	}
+	.author .post-author-avatar img {
+		max-width: 56px;
+	}
+	.author {
+		font-size: 15px;
+	}
+	pre {
+		padding: 10px 0 10px 20px;
+	}
+	.menu:before {
+		font-size: 16px;
+	}
+}
