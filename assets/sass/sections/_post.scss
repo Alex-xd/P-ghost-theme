@@ -87,10 +87,9 @@
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	height: 40px;
-	line-height: 40px;
-	margin: 40px 0 0 0;
-	padding: 0 40px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 36px;
 	text-transform: uppercase;
 }
 .post .post-readmore:active,
@@ -108,14 +107,14 @@
 }
 .post-header h2 {
 	font-size: 36px;
-	margin: 0 0 45px 0;
+	margin: 0 0 36px 0;
 	position: relative;
 	text-align: center;
 }
 .post-header h2 a {
 	color: #363636;
 	display: block;
-	padding: 65px 65px 20px 65px;
+	padding: 15px 65px 20px 65px;
 	position: relative;
 }
 .post-header h2 a:hover { color: #DA6426; }
@@ -162,11 +161,11 @@
 	margin: 0;
 }
 .post-excerpt {
-	padding: 0 65px 65px 65px;
+	padding: 0 65px 46px 65px;
 	text-align: center;
 }
 .post-content { 
-	padding: 0 65px 65px 65px;
+	padding: 0 65px 0 65px;
 }
 .post-content img,
 .post-content video,
@@ -211,25 +210,8 @@
 	display: table;
 }
 .share {
-	margin: -40px auto 60px;
-	width: 250px;
+	margin-bottom: 20px; 
 }
-.share h4 {
-	color: #363636;
-	float: left;
-	font-size: 14px;
-	margin: 0 20px 0 0;
-}
-.share a {
-	display: block;
-	float: left;
-	font-size: 20px;
-	height: 25px;
-	margin: 0 10px 0 0;
-	overflow: hidden;
-	width: 20px;
-}
-.share a:hover { color: #363636 }
 .icon-twitter { color: #2aa9e0 }
 .icon-fb { color: #204385 }
 .icon-gplus { color: #d3492c }
